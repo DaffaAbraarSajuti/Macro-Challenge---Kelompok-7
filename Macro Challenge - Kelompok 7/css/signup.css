@@ -1,0 +1,37 @@
+body {
+    background-color : #27548A;  
+}
+.container {
+    background: linear-gradient(to bottom, #F5EEDC, #DDA853);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+    width : 700px; 
+}
+.container .form1 {
+    width : 500px;
+}
+.container input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0.6; 
+}
+.container button {
+    background-color: #F5EEDC;
+    width: 140px;
+    box-shadow : inset 0px 4px 6px rgba(0, 0, 0, 0.3); 
+    display : flex;
+    justify-content : center;
+    margin : auto;
+}
+.container button:hover {
+    display: flex;
+    justify-content: center;
+    background-color: #DDA853;
+}
+.container p {
+    text-align: center;
+}
+.container a {
+    text-decoration: none;
+    color: black;
+}
